@@ -1,0 +1,22 @@
+runtime: nodejs
+env: flex
+
+
+# runtime: nodejs
+# env: flex
+# # [END runtime]
+# 
+# # Temporary setting to keep gcloud from uploading node_modules
+# skip_files:
+#  - ^node_modules$
+# 
+# automatic_scaling:
+#   min_num_instances: 3
+# 
+# 
+# health_check:
+#   enable_health_check: True
+#   check_interval_sec: 5
+#   timeout_sec: 4
+#   unhealthy_threshold: 5
+#   healthy_threshold: 2
